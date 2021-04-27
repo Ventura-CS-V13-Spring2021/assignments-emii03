@@ -8,7 +8,7 @@ int main() {
   int sum=0;
 
   for (int i=0; i<10; i++){
-    sum += numbers[1];
+    sum += numbers[i];
 
   }
 cout << sum << endl;
@@ -25,9 +25,7 @@ int nine = sum - numbers[8];
 int ten = sum - numbers[9];
 int diffff[] = {one, two, three, four, five, six, seven, eight, nine, ten};
 
-
-
-
+cout << diffff;
 
   
  
