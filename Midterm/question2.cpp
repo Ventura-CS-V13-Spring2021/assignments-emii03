@@ -10,7 +10,9 @@ int isGreater(int);
 int main(){
 
   int N;
-  
+  int random;
+
+  srand(time(0));
   ofstream ofs;
 
   ofs.open("numbers.txt");
@@ -20,9 +22,14 @@ int main(){
     exit(0);
 
   }
-  for (int i = 0; i <10; i++)
-{
+
+
+  for (int i = 0; i <N; i++)
+  random = getRdnum();
   
+
+{
+
 }
 }
 
