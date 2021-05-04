@@ -1,5 +1,5 @@
-#include "IntegerArray.hpp"
 #include <iostream>
+#include "IntegerArray.hpp"
 using namespace std;
 
 int main(){
